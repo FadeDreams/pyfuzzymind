@@ -52,7 +52,6 @@ urgency_set = FuzzySet('Urgency', lambda urgency: 0 if urgency < 3 else (urgency
 complexity_set = FuzzySet('Complexity', lambda complexity: 0 if complexity < 2 else (complexity - 2) / 3 if complexity < 5 else 1)
 
 # Define fuzzy rules
-```python
 rules = [
     FuzzyRule(
         lambda inputs: urgency_set.membership_degree(inputs['urgency']) > 0.7 and complexity_set.membership_degree(inputs['complexity']) > 0.7,
