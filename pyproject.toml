@@ -5,8 +5,8 @@ description = "A Python library for implementing fuzzy logic systems, including 
 authors = ["fadedreams7 <fadedreams7@gmail.com>"]
 readme = "README.md"
 license = "MIT"
-homepage = "https://github.com/fadedreams/pycircuitbreaker"
-repository = "https://github.com/fadedreams/pycircuitbreaker"
+homepage = "https://github.com/fadedreams/pyfuzzymind"
+repository = "https://github.com/fadedreams/pyfuzzymind"
 keywords = ["fuzzy", "logic", "fuzzy logic", "fuzzy set", "fuzzy rule", "inference engine"]
 classifiers = [
     "Environment :: Console",
