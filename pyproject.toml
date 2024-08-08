@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "pyfuzzymind"
+version = "0.1.0"
+description = "A Python library for implementing fuzzy logic systems, including fuzzy sets, fuzzy rules, inference engines, and various defuzzification methods."
+authors = ["fadedreams7 <fadedreams7@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/fadedreams/pycircuitbreaker"
+repository = "https://github.com/fadedreams/pycircuitbreaker"
+keywords = ["fuzzy", "logic", "fuzzy logic", "fuzzy set", "fuzzy rule", "inference engine"]
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities"
+]
+include = [
+    "LICENSE",
+    "README.md" 
+]
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
