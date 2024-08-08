@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyfuzzymind"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Python library for implementing fuzzy logic systems, including fuzzy sets, fuzzy rules, inference engines, and various defuzzification methods."
 authors = ["fadedreams7 <fadedreams7@gmail.com>"]
 readme = "README.md"
